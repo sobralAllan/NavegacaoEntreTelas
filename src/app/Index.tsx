@@ -1,6 +1,6 @@
 import { View, Text, StyleSheet, Button } from "react-native"
 import { useNavigation } from "expo-router";
-import PaginaDois from "./PaginaDois"
+import Bosque  from "./Bosque"
 
 export default function Index(){
     const navigation = useNavigation();
@@ -8,7 +8,7 @@ export default function Index(){
     return(
         <View style={styles.container}>
             <Text style={styles.texto}>Página Index</Text>
-            <Button title="Segunda Página" onPress={() => navigation.navigate('PaginaDois')} />
+            <Button title="Segunda Página" onPress={() => navigation.navigate('Bosque')} />
         </View>
     );
 }//fim da Index
